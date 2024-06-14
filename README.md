@@ -30,3 +30,17 @@ c = circle(15)
 print("area of circle",c.area())
 print("cicumference of circle",c.circumference())
 end
+class rectangle():
+    def data(self):
+        rectangle.length = int(input("enter length:"))
+        rectangle.breadth = int(input("enter breadth:"))
+    def display(self):
+        print("length of rectangle",rectangle.length)
+        print("breadth of rectangle",rectangle.breadth)
+    def area(self):
+        print("area = ",rectangle.length*rectangle.breadth)
+r = rectangle()
+r.data()
+r.display()
+r.area()
+end**
