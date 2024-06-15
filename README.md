@@ -59,3 +59,21 @@ print("class name: ",abc.__name__)
 print("module: ",object.__module__)
 print("class bases: ",abc.__bases__)
 END**
+class student():
+        def __init__(self, name):
+            self.name = name
+            self.marks = []
+        def ma(self):
+            for i in range(3):
+                ma = int(input("enter marks of %s in subject %d : "%(self.name,i+1)))
+                self.marks.append(ma)
+        def display(self):
+            print(self.name, "got", self.marks)
+s=student("mohan")
+s1=student("chandu")
+s.ma()
+s1.ma()
+s.display()
+s1.display()
+end*
+
