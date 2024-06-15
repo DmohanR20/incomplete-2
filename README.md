@@ -44,3 +44,18 @@ r.data()
 r.display()
 r.area()
 end**
+class abc():
+    def __init__(self, v1,v2):
+        self.v1 = v1
+        self.v2 = v2
+    def display(self):
+        print("variable1: ",self.v1)
+        print("variable2: ",self.v2)
+object = abc(14, 11.11)
+object.display()
+print("dict= ",object.__dict__)
+print("doc= ",object.__doc__)
+print("class name: ",abc.__name__)
+print("module: ",object.__module__)
+print("class bases: ",abc.__bases__)
+END**
